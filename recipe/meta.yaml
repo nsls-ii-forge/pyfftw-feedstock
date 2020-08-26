@@ -30,7 +30,9 @@ requirements:
     - {{ pin_compatible('numpy') }}
 
 about:
-  home: http://hgomersall.github.com/pyFFTW/
+  home: https://pyfftw.readthedocs.io
   license: BSD or GPL 2
   license_file: LICENSE.txt
   summary: A pythonic wrapper around FFTW, the FFT library, presenting a unified interface for all the supported transforms.
+  doc_url: https://pyfftw.readthedocs.io
+  dev_url: https://github.com/pyFFTW/pyFFTW
