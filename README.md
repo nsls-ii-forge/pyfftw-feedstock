@@ -1,15 +1,17 @@
 About pyfftw
 ============
 
-Home: http://hgomersall.github.com/pyFFTW/
+Home: https://pyfftw.readthedocs.io
 
 Package license: BSD or GPL 2
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/pyfftw-feedstock/blob/master/LICENSE.txt)
 
 Summary: A pythonic wrapper around FFTW, the FFT library, presenting a unified interface for all the supported transforms.
 
+Development: https://github.com/pyFFTW/pyFFTW
 
+Documentation: https://pyfftw.readthedocs.io
 
 Current build status
 ====================
@@ -29,13 +31,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.6</td>
-              <td>
-                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=49&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/pyfftw-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_python3.7</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=49&branchName=master">
@@ -50,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.6</td>
+              <td>linux_64_python3.9</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=49&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/pyfftw-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/pyfftw-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -71,10 +66,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.6</td>
+              <td>osx_64_python3.9</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=49&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/pyfftw-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/pyfftw-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -89,6 +84,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=49&branchName=master">
                   <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/pyfftw-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=49&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/pyfftw-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr>
@@ -147,9 +149,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
